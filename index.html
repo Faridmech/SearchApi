@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Super Hero Api Work</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+     
+    <div class="main-wrapper">
+        <div class="app">
+            <div class="app-header">
+                <h2 class="app-header-title">Super <span>Hero.</span></h2>
+                <form class="app-header-search">
+                    <input type="text" class="form-control" placeholder="Search your superhero here..." name="search">
+                    <button class="search-btn" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <div class="search-list" id="search-list">
+                        <div class="search-list-item">
+                            <img src="batman.jpg">
+                            <p>Batman</p>
+                        </div>
+                        
+                    </div> 
+                </form>
+            </div>
+
+            <div class="app-body">
+                <div class="app-body-content">
+                    <div class="app-body-content-thumbnail">
+                        <img src="batman.jpg" alt="">
+                    </div>
+
+                    <div class="app-body-content-list">
+                        <div class="name">Batman</div>
+
+                        <div class="app-body-tabs-head">
+                            <button type="button" class="tab-head-single" data-id = "1">
+                                 <span>powerstats</span>
+                            </button>
+                            <button type="button" class="tab-head-single" data-id="2">
+                                <span>biography</span>
+                            </button>
+                            <button type="button" class="tab-head-single" data-id="3">
+                                <span>appearance</span>
+                            </button>
+                            <button type="button" class="tab-head-single" data-id="4">
+                                <span>connections</span>
+                            </button>
+                        </div>
+
+                        <div class="app-body-tabs-body">
+                            <ul class="tab-body-single powerstats">
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>Inteligence</span>
+                                    </div>
+                                    <span>100</span>
+                                </li>
+
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>strength</span>
+                                    </div>
+                                    <span>26</span>
+                                </li>
+
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>Speed</span>
+                                    </div>
+                                    <span>27</span>
+                                </li>
+
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>Durablity</span>
+                                    </div>
+                                    <span>50</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>Power</span>
+                                    </div>
+                                    <span>47</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>Combat</span>
+                                    </div>
+                                    <span>100</span>
+                                </li>
+                            </ul>
+
+                            <ul class="tab-body-single biography">
+                                <li>
+                                    <span>Full name</span>
+                                    <span>Terry megins</span>
+                                </li>
+                                <li>
+                                    <span>alert-egos</span>
+                                    <span>no alter egos</span>
+                                </li>
+                                <li>
+                                    <span>aliases</span>
+                                    <span>Batman II, The Tomorrow knight, Batman Beyond</span>
+                                </li>
+                                <li>
+                                    <span>Place of birth</span>
+                                    <span>Yuxari Uzunoba kendi</span>
+                                </li>
+                                <li>
+                                    <span>First-apperance</span>
+                                    <span>Yuxari Uzunobanin alinmasi</span>
+                                </li>
+                                <li>
+                                    <span>Publisher</span>
+                                    <span>Babek rayon</span>
+                                </li>
+                            </ul>
+
+                            <ul class="tab-body-single appearance">
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>Gender
+                                    </span> <span>Male</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>Race
+                                    </span> <span>Human</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>Height
+                                    </span> <span>180cm</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>Weight
+                                    </span> <span>120kg</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>Eye-color
+                                    </span> <span>Red</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>Hair-color
+                                    </span> <span>Blue</span>
+                                </li>
+                            </ul>
+
+                            <ul class="tab-body-single connections">
+                                <li>
+                                    <span>Group Affilation</span> 
+                                    <span>Batman family justice league unlimited</span>
+                                </li>
+                                <li>
+                                    <span>Relative</span>
+                                    <span>Bruce weyn</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
